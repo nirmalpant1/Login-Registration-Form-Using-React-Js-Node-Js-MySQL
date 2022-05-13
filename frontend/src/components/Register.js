@@ -77,34 +77,7 @@ const Register = () => {
                                 <input type="password" className="input" placeholder="******" value={confPassword} onChange={(e) => setConfPassword(e.target.value)} />
                             </div>
                         </div>
-                        <div class="control">
-                        <label className="label">Gender</label>
-                        <label class="radio">
-                            <input type="radio" name="gender"></input>
-                            Male
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="gender"></input>
-                            Female
-                        </label>
-                        </div>
-                        <div>
-                        <label className="label" style={{paddingBottom: 10}}>Upload Image</label>
-                        </div>
-                        <div class="file is-primary">
                         
-                        <label class="file-label">
-                            <input class="file-input" type="file" name="resume"></input>
-                            <span class="file-cta">
-                            <span class="file-icon">
-                                <i class="fas fa-upload"></i>
-                            </span>
-                            <span class="file-label">
-                            Browse..
-                            </span>
-                            </span>
-                        </label>
-                        </div>
                         <div className="field mt-5">
                             <button className="button is-success is-fullwidth">Register</button>
                         </div>
